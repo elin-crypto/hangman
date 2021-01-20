@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2VWTigcsZx3MMHRblZwpehW5b9484cAXhUN4qxVV14+UuY+WnG0xPM4fFp60+VpcvdaeFwW3B4iUh4U5l4StPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\David\\Desktop\\Elin\\VSC_Hangman\\VSC_Hangman.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
