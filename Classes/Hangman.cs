@@ -1,7 +1,7 @@
 using System;
 using static System.Console;
 
-namespace VSC_Hangman
+namespace VSC_Hangman.Classes
 {
     public class Hangman 
     {
@@ -12,6 +12,7 @@ namespace VSC_Hangman
             {
                 case 0:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"             ║");
                     WriteLine(@"             ║"); 
                     WriteLine(@"             ║");
@@ -20,6 +21,7 @@ namespace VSC_Hangman
                     break;
                 case 1:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"             ║"); 
                     WriteLine(@"             ║");
@@ -28,6 +30,7 @@ namespace VSC_Hangman
                     break;
                 case 2:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"          |  ║"); 
                     WriteLine(@"             ║");
@@ -36,6 +39,7 @@ namespace VSC_Hangman
                     break;
                 case 3:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"         /|  ║"); 
                     WriteLine(@"             ║");
@@ -44,6 +48,7 @@ namespace VSC_Hangman
                     break;
                 case 4:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"         /|\ ║"); 
                     WriteLine(@"             ║");
@@ -52,6 +57,7 @@ namespace VSC_Hangman
                     break;
                 case 5:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"         /|\ ║"); 
                     WriteLine(@"           \ ║");
@@ -60,6 +66,7 @@ namespace VSC_Hangman
                     break;
                 case 6:
                     WriteLine(@"         =====");
+                    WriteLine(@"          |  ║");
                     WriteLine(@"          o  ║");
                     WriteLine(@"         /|\ ║"); 
                     WriteLine(@"         / \ ║");

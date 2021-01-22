@@ -30,3 +30,5 @@ C:\Users\David\Desktop\Elin\VSC_Hangman\obj\Debug\net5.0\VSC_Hangman.dll
 C:\Users\David\Desktop\Elin\VSC_Hangman\obj\Debug\net5.0\ref\VSC_Hangman.dll
 C:\Users\David\Desktop\Elin\VSC_Hangman\obj\Debug\net5.0\VSC_Hangman.pdb
 C:\Users\David\Desktop\Elin\VSC_Hangman\obj\Debug\net5.0\VSC_Hangman.genruntimeconfig.cache
+C:\Users\David\Desktop\Elin\VSC_Hangman\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\David\Desktop\Elin\VSC_Hangman\obj\Debug\net5.0\VSC_Hangman.csproj.CopyComplete
