@@ -12,7 +12,6 @@ namespace VSC_Hangman.Classes
         string wrongLetters = "";
         string incorrect = "";
         string word;
-        // int numberOfLetters;
         string hwLines = "";
         string hw;
 
@@ -101,8 +100,57 @@ namespace VSC_Hangman.Classes
 
        public void checkWinLoose()
        {
+           Menu menu = new Menu();
             if(nbrOfErr > 5)
             {
+                WriteLine(@"         =====");
+                WriteLine(@"          |  ║");
+                WriteLine(@"         <o  ║");
+                WriteLine(@"          |\ ║"); 
+                WriteLine(@"         / < ║");
+                WriteLine(@"             ║");
+                WriteLine(@"         =====");
+
+                Thread.Sleep(600);
+                Clear();
+                menu.WriteTitle();
+                
+                WriteLine(@"         =====");
+                WriteLine(@"          |  ║");
+                WriteLine(@"          o> ║");
+                WriteLine(@"         /|  ║"); 
+                WriteLine(@"         > \ ║");
+                WriteLine(@"             ║");
+                WriteLine(@"         =====");
+
+                Thread.Sleep(600);
+                Clear();
+                menu.WriteTitle();
+
+                 WriteLine(@"         =====");
+                WriteLine(@"          |  ║");
+                WriteLine(@"         <o  ║");
+                WriteLine(@"          |\ ║"); 
+                WriteLine(@"         / < ║");
+                WriteLine(@"             ║");
+                WriteLine(@"         =====");
+
+                Thread.Sleep(600);
+                Clear();
+                menu.WriteTitle();
+                
+                WriteLine(@"         =====");
+                WriteLine(@"          |  ║");
+                WriteLine(@"          o> ║");
+                WriteLine(@"         /|  ║"); 
+                WriteLine(@"         > \ ║");
+                WriteLine(@"             ║");
+                WriteLine(@"         =====");
+
+                Thread.Sleep(600);
+                Clear();
+                menu.WriteTitle();
+                
                 WriteLine(@"         =====");
                 WriteLine(@"          |  ║");
                 WriteLine(@"          o  ║");

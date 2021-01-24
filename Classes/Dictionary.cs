@@ -67,12 +67,9 @@ namespace VSC_Hangman.Classes
             return rndWord.Word;
         }
 
-        public void deleteWord()
+        public void writeWordlist()
         {
-            bool delControl = true;
             serialize.Deserialize(out string jsonData, out List<WordList> wordList);
-
-
             // Skriver ut en lista med alla orden!
             int id = 1;
             foreach(var ord in wordList)
@@ -80,6 +77,17 @@ namespace VSC_Hangman.Classes
                 Write($"{id} \t {ord.Word}\n");
                 id++;
             }
+        }
+
+        public void deleteWord()
+        {
+            bool delControl = true;
+            serialize.Deserialize(out string jsonData, out List<WordList> wordList);
+
+
+        
+            writeWordlist();
+         
 
             while(delControl)
             {
@@ -122,13 +130,18 @@ namespace VSC_Hangman.Classes
                 catch(ArgumentOutOfRangeException) // if number isn't in list
                 {
                     Clear();
+                    ForegroundColor = System.ConsoleColor.White;
+                    writeWordlist();
+                    WriteLine();
                     ForegroundColor = System.ConsoleColor.DarkRed;
-                    WriteLine("Du måste ange ett nummer som finns i listan. Försök igen");
+                    WriteLine("Du måste ange ett nummer som finns i listan.");
                     ForegroundColor = System.ConsoleColor.White;
                 }
                 catch(FormatException) // if input isn't a number
                 {
                     Clear();
+                    writeWordlist();
+                    WriteLine();
                     ForegroundColor = System.ConsoleColor.DarkRed;
                     WriteLine("Du måste ange en siffra. Försök igen");
                 }      
